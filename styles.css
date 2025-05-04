@@ -156,7 +156,7 @@ body {
   text-align: justify;
 }
 
-.skills__header {
+.skills__header, .timeline__header {
   color: var(--secondary-text-color);
   text-align: center;
   margin-bottom: 15px;
@@ -211,7 +211,8 @@ body {
   margin-bottom: 10px;
 }
 
-.experiences__company-project-responsibilities {
+.experiences__company-project-responsibilities,
+.timeline__events{
   color: var(--secondary-text-color);
   padding-left: 20px;
 }
